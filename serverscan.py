@@ -10,6 +10,12 @@ serverscan = color.green + "serverscan ~# " + color.white
 ip = color.green + "\nEnter ip: " + color.white
 time.sleep(1)
 os.system("clear")
+print(color.green + """
+
+   █▀▀ █▀▀ █▀▀█ ▀█░█▀ █▀▀ █▀▀█ 　 █▀▀ █▀▀ █▀▀█ █▀▀▄ 
+   ▀▀█ █▀▀ █▄▄▀ ░█▄█░ █▀▀ █▄▄▀ 　 ▀▀█ █░░ █▄▄█ █░░█ 
+   ▀▀▀ ▀▀▀ ▀░▀▀ ░░▀░░ ▀▀▀ ▀░▀▀ 　 ▀▀▀ ▀▀▀ ▀░░▀ ▀░░▀ """ + color.red + """
+             (🅢🅔🅡🅥🅔🅡 🅢🅒🅐🅝) + colro.white)
 print("[1].scan ip")
 print("[2].scan port")
 print("[3].Ping Test")
@@ -19,6 +25,8 @@ choose = str(input(serverscan))
 if(str(choose) == '1'):
   time.sleep(1)
   os.system("clear")
+  print(color.green)
+  os.system("figlet serverscan")
   webserver = str(input(ip))
   os.system("nmap " + webserver)
   time.sleep(2)
