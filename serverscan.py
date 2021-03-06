@@ -6,7 +6,7 @@ class color:
     green = '\033[92m'
     red = '\033[91m'
     white = '\033[0m'
-serverscan = color.green + "serverscan ~# " + color.white
+serverscan = color.green + "\nserverscan ~# " + color.white
 ip = color.green + "\nEnter ip: " + color.white
 time.sleep(1)
 os.system("clear")
