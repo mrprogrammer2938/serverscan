@@ -1,12 +1,16 @@
 # serverscan
-### This code write by [Ms.nope](https://github.com/msprogrammer2938)
+This code write by [Ms.nope](https://github.com/msprogrammer2938)
 ----------------------------
-**How To installing**
+**installing**
 ```
 git clone https://github.com/msprogrammer2938/serverscan.git
+
 cd serverscan
+
 chmod +x install.sh
+
 ./install.sh
+
 python3 serverscan.py
 ```
 # Scr
