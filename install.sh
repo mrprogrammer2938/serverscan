@@ -18,9 +18,9 @@ sudo apt install python3
 sudo apt install pip
 pip install --upgrade pip
 pip install subprocess
-chmod +x serverscan.py
+chmod +x server
 echo ""
 echo "finish!"
 echo ""
-echo "usage: python3 serverscan.py"
+echo "usage: ./server"
 echo ""
