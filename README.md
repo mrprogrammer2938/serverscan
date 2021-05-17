@@ -14,7 +14,7 @@ cd serverscan
 
 bash install.sh
 
-python3 serverscan.py
+./server
 ```
 
 ### [Ms.nope](https://github.com/msprogrammer2938) Account...
