@@ -19,6 +19,7 @@ sudo apt install pip
 pip install --upgrade pip
 pip install subprocess
 chmod +x server
+cd Update && chmod +x update
 echo ""
 echo "finish!"
 echo ""
