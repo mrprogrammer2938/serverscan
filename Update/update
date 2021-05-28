@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+# This code write by Ms.nope
+clear
+echo "updating..."
+sleep 2
+cd .. && sudo rm -r serverscan && git clone https://github.com/msprogrammer2938/serverscan
+echo ""
+sleep 1
+echo "Finish Updating!"
+echo ""
+sleep 2
+cd serverscan && bash install.sh
+echo ""
+exit 1
