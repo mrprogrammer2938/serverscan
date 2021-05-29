@@ -18,8 +18,8 @@ sudo apt install python3
 sudo apt install pip
 pip install --upgrade pip
 pip install subprocess
-chmod +x uninstall
 chmod +x server
+chmod +x uninstall
 cd Update && chmod +x update
 echo ""
 echo "finish!"
