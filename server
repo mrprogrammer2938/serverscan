@@ -3,6 +3,7 @@
 import os
 import time
 import subprocess
+import sys
 class color:
     green = '\033[92m'
     red = '\033[91m'
@@ -10,8 +11,7 @@ class color:
 serverscan = color.green + "\nserverscan ~# " + color.white
 ip = color.green + "\nEnter ip: " + color.white
 def menu():
-    os.system('printf "\033]2;Server\a"')
-    time.sleep(1)
+    os.system('printf "\033]2;Server-Scan\a"')
     os.system("clear")
     print(color.green + """
 
@@ -19,8 +19,8 @@ def menu():
    ▀▀█ █▀▀ █▄▄▀ ░█▄█░ █▀▀ █▄▄▀ 　 ▀▀█ █░░ █▄▄█ █░░█ 
    ▀▀▀ ▀▀▀ ▀░▀▀ ░░▀░░ ▀▀▀ ▀░▀▀ 　 ▀▀▀ ▀▀▀ ▀░░▀ ▀░░▀""" + color.red + """\n
                  (🅢🅔🅡🅥🅔🅡 🅢🅒🅐🅝) """ + color.white + color.green + """
-        ---[ This code write by (Ms.nope) ]------
------[Ms.nope git hub page : https://github.com/msprogrammer2938""" + """
+        ---[ This code write by (Mr.nope) ]------
+-----[Mr.nope git hub page : https://github.com/mrprogrammer2938""" + """
                   version : 2.3.0""" + color.white)
                   
               
@@ -185,7 +185,7 @@ def choose5():
     time.sleep(1)
     os.system("clear")
     print("""
-This code write by (ms.nope)
+This code write by (Mr.nope)
 usage:
      1 - and scan ip
      2 - and scan server port
@@ -205,4 +205,4 @@ if __name__ == '__main__':
   except KeyboardInterrupt:
       print("\nCrtl + C")
       print("Exiting...")
-      exit(2)
+      sys.exit()
