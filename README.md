@@ -27,5 +27,5 @@ cd Update
 ./uninstall
 ```
 
-### [Ms.nope](https://github.com/mrprogrammer2938) Account...
+### [Mr.nope](https://github.com/mrprogrammer2938) Account...
 [Instagram](https://instagram.com/programmer2938)
